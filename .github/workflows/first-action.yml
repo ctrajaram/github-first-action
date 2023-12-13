@@ -8,5 +8,9 @@ jobs:
         run: echo "Hello GH Actions"
       - name: step2
         run: echo "Goodbye"
+      - name: step3 multiple shell commands
+        run: |
+          echo "first command"
+          echo "second command"
     
 
